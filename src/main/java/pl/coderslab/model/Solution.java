@@ -66,4 +66,18 @@ public class Solution {
     public void setExercise_id(int exercise_id) {
         this.exercise_id = exercise_id;
     }
+
+
+    @Override
+    public String toString() {
+        return "Solution{" +
+                "id=" + id +
+                ", created=" + created +
+                ", updated=" + updated +
+                ", description='" + description + '\'' +
+                ", users_id=" + users_id +
+                ", exercise_id=" + exercise_id +
+                '}';
+    }
 }
+

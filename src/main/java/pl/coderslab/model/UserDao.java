@@ -2,7 +2,7 @@ package pl.coderslab.model;
 
 import pl.coderslab.model.Solution;
 import pl.coderslab.model.User;
-import pl.coderslab.util.DbUtil;
+import pl.coderslab.model.DbUtil;
 
 import java.sql.*;
 import java.util.Arrays;
